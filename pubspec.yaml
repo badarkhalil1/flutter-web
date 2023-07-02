@@ -1,0 +1,79 @@
+name: mysite
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  # state management
+  provider: ^6.0.1
+  flutter_bloc: ^8.1.2
+  # http
+  http: ^0.13.1
+  # utils
+  flutter_svg: ^1.1.5
+  # flip_card: ^0.6.0
+  sizer: ^2.0.15
+  connectivity_plus: ^2.3.7
+  url_launcher: ^6.1.2
+  carousel_slider: ^4.2.1
+  animated_text_kit: ^4.2.1
+  scrollable_positioned_list: ^0.3.8
+  firebase_core: ^1.10.0
+
+  # web related
+  # flutter_html: any
+  # url_strategy: ^0.2.0
+  universal_html: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/imgs/1.png
+    - assets/imgs/02.png
+    - assets/imgs/03.png
+    - assets/imgs/04.png
+    - assets/imgs/5424482.jpg
+    - assets/imgs/BG01.png
+    - assets/imgs/flutter.png
+    - assets/imgs/khan2.jpg
+    - assets/icons/android.svg
+    - assets/icons/apple.svg
+    - assets/icons/graphic.svg
+    - assets/icons/website.svg
+    - assets/icons/flutter.svg
+    - assets/gif/hi.gif
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/montserrat/montserrat.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 900
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-Italic.ttf
+          style: italic
